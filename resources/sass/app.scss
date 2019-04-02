@@ -9,3 +9,8 @@ body {
 nav.navbar.navbar-expand-lg {
 	margin-bottom: 20px;
 }
+
+$navbar-color: #3c3e42;
+.lead {
+	background-color: @navbar-color;
+}

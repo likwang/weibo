@@ -12,4 +12,4 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+   .sass('resources/sass/app.scss', 'public/css').version();/*增加version()来确保每次修改文件会有效果。Laravel Mix 给出的方案是为每一次的文件修改做哈希处理*/
