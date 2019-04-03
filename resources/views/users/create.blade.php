@@ -3,12 +3,12 @@
 
 @section('content')
 <div class="col-md-offset-2 col-md-8">
-  <div class="panel panel-default">
-    <div class="panel-heading">
+  <div class="card">
+    <div class="card-header">
       <h5>注册</h5>
     </div>
-    <div class="panel-body">
-     
+    <div class="card-body">
+     @include('shared._errors')
 
       <form method="POST" action="{{ route('users.store') }}">
           {{ csrf_field() }}
