@@ -2,7 +2,7 @@
 @section('title', '注册')
 
 @section('content')
-<div class="col-md-offset-2 col-md-8">
+<div class="offset-2 col-md-8">
   <div class="card">
     <div class="card-header">
       <h5>注册</h5>
